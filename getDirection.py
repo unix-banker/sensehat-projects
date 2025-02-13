@@ -14,27 +14,27 @@ while True:
     z=round(z, 0)
 
     if x == 1:
-        r = 100
+        r = 255
         g = 0
         b = 0
         sense.clear((r, g, b))
         
     if x == -1:
         r = 0
-        g = 100
+        g = 255
         b = 0
         sense.clear((r, g, b))
         
     if y == 1:
         r = 0
         g = 0
-        b = 100
+        b = 255
         sense.clear((r, g, b))
         
     if y == -1:
-        r = 100
+        r = 255
         g = 0
-        b = 100
+        b = 255
         sense.clear((r, g, b))
 
     print("x={0}, y={1}, z={2}".format(x, y, z))
